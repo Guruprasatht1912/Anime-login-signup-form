@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+     body{
+        border: 1px solid black;
+        height: 100vh;
+    }
+    div{
+        border: 1px solid black;
+        background-color: aqua;
+        height: 40vh;
+        width: 50%;
+        position: relative;
+        left: 300px;
+        top: 300px;
+        /* border:30px 40px 50px 60px; */
+        border-top: 30px  black;
+        border-bottom: 50px solid brown;
+        /* margin-top: 50px; */
+    }
+    blockquote{
+        background-color: blue;
+    }
+    h1{
+        border: 1px solid black;
+        padding: 20px;
+    }
+</style>
+</head>
+<body>
+    <div>
+<p>Lorem ipsum dolor sit amet consectetur  <q>dfghj</q> <blockquote>sdfghj</blockquote>  <abbr>Ranjioth</abbr> adipisicing elit. Excepturi, tenetur.</p>
+    </div>
+    <h1>dfghjkj</h1>
+    <script>
+     
+    //  function rt(rows)
+    //  {
+    //     for(let i=1;i<=rows;i++)
+    //     {
+    //         let stars=""
+    //     for(let j=1;j<=i;j++)
+    //     {
+    //         stars+="*";
+    //     }
+    //     console.log(stars)
+    //     }  
+    //  }
+    //  rt(6)
+
+    // function star(stars)
+    // {
+    //  for(let i=1;i<=stars;i++)
+    //  {
+       
+    //     for(let j=1;j<=2;j++)
+    //     {
+    //         if(stars%2==0)
+    //         {
+    //             console.log("*")
+    //         }
+    //         else{
+    //             console.log("**")
+    //         }
+    //     }
+    //  }
+    // }
+    // star(4)
+
+    function printPattern(rows) {
+    for (let i = 1; i <= rows; i++) {
+        let stars = '';
+        for (let j = 1; j <= i; j++) {
+            stars += '*';
+        }
+        console.log(stars);
+    }
+    for (let i = 1; i <= rows; i++) {
+        let stars = '';
+        for (let j = 1; j <= i; j++) {
+            stars += '*';
+        }
+        console.log(stars);
+    }
+}
+
+// Example: Print the specified pattern
+printPattern(2);
+
+
+    </script>
+</body>
+</html>
